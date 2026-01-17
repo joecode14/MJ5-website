@@ -1,0 +1,26 @@
+# ========================================
+# MWIRUTI JNR BACKEND CONFIGURATION
+# ========================================
+
+# Server Configuration
+PORT=3000
+NODE_ENV=production
+
+# PostgreSQL Database Configuration
+# ⚠️ IMPORTANT: Replace with your actual Vercel PostgreSQL URL
+POSTGRES_URL=postgresql://default:password123@ep-cold-sun-123456.us-east-1.postgres.vercel-storage.com/verceldb
+
+# JWT Authentication
+JWT_SECRET=mwirutijnr-super-secret-key-2025-change-this-in-production
+
+# Admin Credentials
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=mwirutijnr2025
+
+# File Upload Configuration
+MAX_FILE_SIZE=5242880
+ALLOWED_IMAGE_TYPES=image/jpeg,image/png,image/webp,image/gif
+
+# CORS Configuration
+FRONTEND_URL=https://mwirutijnr.vercel.app
+ALLOWED_ORIGINS=https://mwirutijnr.vercel.app,http://localhost:3000
